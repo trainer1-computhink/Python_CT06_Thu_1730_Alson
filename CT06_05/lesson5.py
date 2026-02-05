@@ -98,8 +98,10 @@
 #     print(char)
 
 # Task 9
-name = input("Enter your name: ")
-for char in name:
-    print("Give me a " + char + "!")
-print("What do we have?")
-print(name + " is the best!")
+# name = input("Enter your name: ")
+# for char in name:
+#     print("Give me a " + char + "!")
+# print("What do we have?")
+# print(name + " is the best!")
+
+prin("abc")
