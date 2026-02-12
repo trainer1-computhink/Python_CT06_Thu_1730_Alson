@@ -49,6 +49,6 @@
 # print(f"Sum of the 5 numbers is {total}.")
 
 # Task 7
-number = int(input("Which number's timetable to print? "))
-for i in range(1, 13):
-    print(f"{number} x {i} = {number * i}")
+# number = int(input("Which number's timetable to print? "))
+# for i in range(1, 13):
+#     print(f"{number} x {i} = {number * i}")
