@@ -39,35 +39,67 @@
 #         print("Invalid choice. Please try again.")
 
 # Task 1
-groceries = [
-    "Bread",
-    "Milk",
-    "Eggs",
-    "Potato Chips",
-    "Fruits",
-    "Ice Cream",
-    "Tea",
-    "Coffee"
-]
+# groceries = [
+#     "Apples",
+#     "Bread",
+#     "Carrots",
+#     "Dates",
+#     "Eggs",
+#     "Flour",
+#     "Grapes",
+#     "Honey"
+# ]
 
-groceries[7] = "Banana"
+# groceries[7] = "Herbs"
+# # print(groceries)
+
+# # for item in groceries:
+# #     print(item)
+
+# # for i in range(len(groceries)):
+# #     print(groceries[i])
+
+# # Add at a certain index
+# groceries.insert(1, "Bananas")
 # print(groceries)
 
-# for item in groceries:
-#     print(item)
+# # Add to the end
+# groceries.append("Ice")
+# print(groceries)
 
-# for i in range(len(groceries)):
-#     print(groceries[i])
+# # del(groceries[2])
+# removed = groceries.pop(2)
+# print(groceries)
+# print(f"{removed} was removed.")
 
-# Add at a certain index
-groceries.insert(1, "Apple")
-print(groceries)
+# # Task 2
+# for i in range(len(groceries)):  
+#     if groceries[i] == "Apples":
+#         print(f"{groceries[i]}: I will need 5 of these")
+#     elif groceries[i] == "Carrots":
+#         print(f"{groceries[i]}: I will need 3 of these")
+#     elif groceries[i] == "Grapes":
+#         print(f"{groceries[i]}: Get the FarmFresh brand")
+#     else:
+#         print(groceries[i])
 
-# Add to the end
-groceries.append("Peanuts")
-print(groceries)
+# Task 3
+groceries = []
+while True:
+    item = input("What item have you added to your basket?\n")
+    if item == "end":
+        break
+    groceries.append(item)
+    
+for i in range(len(groceries)):
+    print(f"I have bought {groceries[i]}.")
 
-del(groceries[0])
-removed = groceries.pop(5)
-print(groceries)
-print(removed)
+# Task 4
+# num = 0
+# while num < 10:
+#     num += 1
+#     print(num)
+
+# while True:
+#     if num == 10:
+#         break
